@@ -1,13 +1,15 @@
-# 📊 Bank Loan Portfolio Analysis | Power BI
+# 📊 Bank Loan Portfolio Analysis | Python,Power BI
 
 ## 📝 Project Overview
 This project presents an **end-to-end analysis** of bank loan data to evaluate portfolio performance, identify risk areas, and uncover actionable business insights.  
-Using **Power BI**, interactive dashboards were created to track key metrics, analyze borrower profiles, and monitor loan performance across multiple dimensions.  
+Using **Python & Power BI**, analysis report and interactive dashboards were created to track key metrics, analyze borrower profiles, and monitor loan performance across multiple dimensions.  
 
 The analysis is structured into three dashboards:  
 1. **Summary Dashboard** → High-level KPIs and loan status overview.  
 2. **Overview Dashboard** → Trends, regional patterns, and borrower demographics.  
 3. **Details Dashboard** → Granular view of loan applications and portfolio performance.
+
+To view/download the analysis report using python [click here](https://github.com/ManishKukreja98/Bank-loan-analysis-python-powerbi/blob/414d88b1366a75ce2452bbf181d8b8c0c1940b2d/Main-files/Python%20Bank%20Loan%20Analysis.pdf)
 
 To view/download the dashboard file [click here](https://github.com/ManishKukreja98/Bank-loan-analysis-powerbi/blob/11b089d19e5957e9e7d6e0f88a3fcb68bfe851c0/Main-files/Bank%20loan%20report%20powerbi%20dashboard.pbix)
 
@@ -29,7 +31,7 @@ Below are snapshots of the three dashboards included in this project:
 
 ## 📝 Executive Summary  
 
-This project analyzes a **Bank Loan Dataset** to evaluate loan portfolio performance and borrower behavior. Using **Power BI** with data modeling, and DAX calculations, the dashboards provide actionable insights:  
+This project analyzes a **Bank Loan Dataset** to evaluate loan portfolio performance and borrower behavior. Using **Python(Pandas, Matplotlib, Seaborn, Plotly)** for exploratory analysis and **Power BI** with data modeling, and DAX calculations, the dashboards provide actionable insights:  
 
 - ✅ **Loan Quality** – 86.2% of loans are classified as *good loans*, while 13.8% fall under *bad loans*.  
 - 🏢 **Risk Segments** – A large share of bad loans (~25%) were borrowed for *small business* purposes.  
@@ -42,9 +44,23 @@ These insights enable lenders and financial institutions to:
 -  Optimize portfolio mix across loan purposes and terms.  
 -  Strengthen risk assessment frameworks to reduce defaults.  
 
-## ⚙️ Methodology  
+## ⚙️ Methodology 
 
-The entire analysis was performed in **Power BI**, leveraging its advanced data modeling and DAX capabilities to design interactive and insightful dashboards.  
+The analysis followed a **two-stage approach using Python and Power BI** to ensure both **deep exploratory analysis** and **interactive dashboarding**.  
+
+---
+### **Stage 1 – Data Analysis with Python**  
+The raw dataset was first analyzed using **Python** with libraries such as:  
+- **Pandas** → for data cleaning, preprocessing, and aggregations.  
+- **Matplotlib & Seaborn** → for exploratory data visualization and trend analysis.  
+- **Plotly** → for interactive visualizations and deeper portfolio insights.  
+
+Key insights such as loan quality distribution, borrower intent, loan term preferences, and risk segmentation were derived in Python. These insights guided the **dashboard design in Power BI**.  
+
+---
+
+### **Stage 2 – Dashboard Development in Power BI**  
+Power BI was then used to create interactive and business-ready dashboards by leveraging advanced data modeling and DAX capabilities.  
 
 Key steps in the methodology include:  
 
